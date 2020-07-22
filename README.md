@@ -7,6 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Custom Artisan Command
+
+I have created a game custom artisan command for assesing the result of game. Just run it running " php artisan game " command in root directory of application i.e. game directory.
+
+Also wrote some unit test case. To run those test cases just issue " ./vendor/bin/phpunit tests/Unit/GameAssesTest.php " in application's root directory.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
